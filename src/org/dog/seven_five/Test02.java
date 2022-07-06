@@ -11,14 +11,14 @@ import java.util.Set;
  */
 
 public class Test02 {
-  public boolean hasCycle(ListNode head) {
-    Set<ListNode> set = new HashSet<ListNode>();
-    while (head != null) {
-      if (!set.add(head)) {
-        return true;
-      }
-      head = head.next;
-    }
-    return true;
-  }
+//  public boolean hasCycle(ListNode head) {
+//    Set<ListNode> set = new HashSet<ListNode>();
+//    while (head != null) {
+//      if (!set.add(head)) {
+//        return true;
+//      }
+//      head = head.next;
+//    }
+//    return true;
+//  }
 }
